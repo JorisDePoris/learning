@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  margin-top: 50px;
+}
+
+.count{
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.bar{
+  position:fixed;
+  top: 0;
+  height: 4px;
+  width: 0px;
+  background: #ff16b7;
+}
+
+.text{
+  max-width: 30vw;
+  justify-self: center;
+  text-align: center;
+}
