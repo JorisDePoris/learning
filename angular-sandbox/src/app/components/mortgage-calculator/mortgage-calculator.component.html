@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="panel">
+    <div class="row centered">
+      <h2>Mortgage Calculator</h2>
+    </div>
+    <div class="row">
+      <h4>Mortgage Amount [$]</h4>
+      <input type="number"
+      name="loanAmount"
+      id="loanAmount">
+    </div>
+    <div class="row">
+      <h4>Interest Rate [%]</h4>
+      <input type="number"
+      name="interest"
+      id="interest">
+    </div>
+    <div class="row">
+      <h4>Mortgage Length</h4>
+      <div>
+        <input type="radio"
+        name="loanLength"
+        class="loanLength"
+        value="180"> 15 yr
+        <input type="radio"
+        name="loanLength"
+        class="loanLength"
+        value="360"> 30 yr
+      </div>
+    </div>
+    <div class="row centered">
+      <span>Your expected monthly payment is: ${{expected}}</span>
+    </div>
+  </div>
+</div>

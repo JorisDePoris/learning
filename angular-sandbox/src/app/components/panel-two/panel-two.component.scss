@@ -1,0 +1,23 @@
+.container{
+
+}
+
+.row{
+  display: flex;
+  margin-bottom: 8px;
+  &.spaced-items > * {
+    margin-right: 8px;
+  }
+}
+
+.panel {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}

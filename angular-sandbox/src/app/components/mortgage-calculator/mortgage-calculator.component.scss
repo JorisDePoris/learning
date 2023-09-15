@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  max-width: 500px;
+}
+
+.panel {
+  background-color: rgba(200,200,200,0.1);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  &.centered {
+    justify-content: center;
+  }
+}

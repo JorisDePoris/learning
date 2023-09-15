@@ -1,0 +1,10 @@
+<div class="container">
+  <p>Polling Status: {{pollingStatus[+((status$ | async) || 0)]}}</p>
+  <div class="row spaced-items">
+    <button mat-raised-button color="primary" id="start" #start>Start polling</button>
+    <button mat-raised-button color="warn" id="stop" #stop>Stop polling</button>
+  </div>
+  <div class="panel">
+    <img src="https://random.dog/d034bd3f-4f5a-4d45-92b8-0bc8c314022a.jpg" id="dog">
+  </div>
+</div>
